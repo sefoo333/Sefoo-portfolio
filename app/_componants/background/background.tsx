@@ -9,12 +9,12 @@ const Squares = ({
     squareSize = 40,
     hoverFillColor = '#222',
 }) => {
-    const canvasRef = useRef(null);
-    const requestRef = useRef(null);
-    const numSquaresX = useRef();
-    const numSquaresY = useRef();
-    const gridOffset = useRef({ x: 0, y: 0 });
-    const [hoveredSquare, setHoveredSquare] = useState(null);
+    const canvasRef:any = useRef(null);
+    const requestRef:any = useRef(null);
+    const numSquaresX:any= useRef("");
+    const numSquaresY:any = useRef("");
+    const gridOffset:any = useRef({ x: 0, y: 0 });
+    const [hoveredSquare, setHoveredSquare]:any = useState(null);
 
     useEffect(() => {
         const canvas: any = canvasRef.current;
@@ -98,7 +98,7 @@ const Squares = ({
         };
 
         // Track mouse hover
-        const handleMouseMove = (event) => {
+        const handleMouseMove = (event:any) => {
             const rect = canvas.getBoundingClientRect();
             const mouseX = event.clientX - rect.left;
             const mouseY = event.clientY - rect.top;
