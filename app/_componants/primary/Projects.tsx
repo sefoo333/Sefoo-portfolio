@@ -45,7 +45,7 @@ users to browse products, add to cart, and checkout securely and added the produ
     ]
 
     return (
-        <div className="parent">
+        <div className="parent" id="projects">
             <div className="container max-w-full px-[50px] py-[90px]">
                 <div className="header   text-white font-bold mb-[20px] text-center text-[50px]">
                     <h1>Projects</h1>
