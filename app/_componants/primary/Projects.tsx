@@ -78,7 +78,7 @@ users to browse products, add to cart, and checkout securely and added the produ
                                     </a>
                                 </div>
                                 <div className="skills flex">
-                                    {e.technologies.map((a) => (
+                                    {e.technologies.map((a:any) => (
                                         <div className="icon  rounded-full flex items-center justify-center p-[5px]">
                                             <Image src={`/${a}`} alt="" width={25} height={25} />
                                         </div>
