@@ -7,10 +7,10 @@ function FloatingNavDemo() {
                 <h1 className='text-[25px] text-white font-bold max-md:hidden'>Sefoo</h1>
 
                 <ul className='list-none flex gap-[25px] text-white cursor-pointer'>
-                    <li className='transition-all hover:text-[#00ADB5]'>About</li>
-                    <li className='transition-all hover:text-[#00ADB5]'>Services</li>
-                    <li className='transition-all hover:text-[#00ADB5]'>Projects</li>
-                    <li className='transition-all hover:text-[#00ADB5]'>Contact</li>
+                       <li className='transition-all hover:text-[#00ADB5]'><a href="#Home">Home</a></li>
+                    <li className='transition-all hover:text-[#00ADB5]'><a href="#About">About</a></li>
+                    <li className='transition-all hover:text-[#00ADB5]'><a href="#projects">Projects</a></li>
+                    <li className='transition-all hover:text-[#00ADB5]'><a href="#contact">Contact</a></li>
                 </ul>
             </div>
         </nav>
