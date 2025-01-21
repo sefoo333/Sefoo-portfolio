@@ -16,7 +16,7 @@ import "./style.css";
 function Home2() {
     return (
         <>
-            <div className="square w-full h-full absolute bg-[#222831]  -z-10 overflow-hidden">
+            <div className="square w-full h-full absolute bg-[#222831]  -z-10 overflow-hidden" id="Home">
                 {/* <Squares
                     speed={0.5}
                     squareSize={40}
