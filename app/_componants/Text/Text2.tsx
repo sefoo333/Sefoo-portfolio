@@ -376,7 +376,6 @@ export function TextAnimate({
                         className={cn(
                             by === "line" ? "block" : "inline-block whitespace-pre",
                             segmentClassName,
-                            "text-[20px] max-md:text-[15px]"
                         )}
                     >
                         {segment}
