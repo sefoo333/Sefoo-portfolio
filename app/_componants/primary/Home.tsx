@@ -1,5 +1,5 @@
 import React from 'react'
-import SplitText from '../Text/Text'
+import { TextAnimate1 } from '../Text/Text'
 import { IoDocumentTextOutline } from "react-icons/io5";
 import Image from 'next/image';
 import Squares from '../background/background';
@@ -51,29 +51,14 @@ function Home2() {
                     <div className="text flex-col flex gap-[20px] justify-center text-center">
                         <div className="primary flex gap-[5px] flex-col text-white">
                             <div className="main text-center uppercase max-md:text-[30px] relative z-[99999]">
-                                <SplitText
-                                    text={`Hi I'm`}
-                                    className=" mm1 font-semibold text-center text-[#00ADB5] "
-                                    delay={100}
-                                    animationFrom={{ opacity: 0, transform: 'translate3d(0,50px,0)' }}
-                                    animationTo={{ opacity: 1, transform: 'translate3d(0,0,0)' }}
-                                    easing="easeOutCubic"
-                                    threshold={0.2}
-                                    rootMargin="-50px"
-                                    size="65px"
-                                />
+
+                                <TextAnimate animation="slideUp" by="character" segmentClassName="text-[60px] mm1" className='mm1 font-semibold text-center text-[#00ADB5] text-[65px] '>
+                                    Hi I'm
+                                </TextAnimate>
                                 <div className="   max-md:text-[40px]  ">
-                                    <SplitText
-                                        text={`seifeldeen Ali`}
-                                        className="mm2 font-semibold text-center block text-wrap "
-                                        delay={50}
-                                        animationFrom={{ opacity: 0, transform: 'translate3d(0,50px,0)' }}
-                                        animationTo={{ opacity: 1, transform: 'translate3d(0,0,0)' }}
-                                        easing="easeOutCubic"
-                                        threshold={0.2}
-                                        rootMargin="-50px"
-                                        size="80px"
-                                    />
+                                    <TextAnimate animation="slideUp" by="character" segmentClassName="text-[80px] mm2" className="mm2 font-semibold text-center block text-wrap text-[80px] ">
+                                        Seifeldeen Ali
+                                    </TextAnimate>
                                 </div>
                             </div>
                             <div className="secondry text-center w-full flex justify-center relative z-[9999]">
@@ -88,7 +73,7 @@ function Home2() {
                                     rootMargin="-50px"
                                     size="35px"
                                 /> */}
-                                <TextAnimate animation="blurInUp" className='text-white/80 w-[450px] tracking-[1px] text-center  max-md:text-[15px]' by="character">
+                                <TextAnimate animation="blurInUp" segmentClassName="text-[20px] max-md:text-[15px]" className='text-white/80 w-[450px] tracking-[1px] text-center  max-md:text-[15px]' by="character">
                                     a Front-end Developer and Freelancer
                                 </TextAnimate>
                             </div>
