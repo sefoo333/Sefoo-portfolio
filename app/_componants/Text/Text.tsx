@@ -58,7 +58,7 @@ function SplitText({
         <p
             ref={ref}
             className={`split-parent impor overflow-hidden inline ${className}`}
-            style={{ textAlign, fontSize: size }}
+            style={{ textAlign: "center", fontSize: size }}
         >
             {springs.map((props: any, index: any) => (
                 <animated.span
