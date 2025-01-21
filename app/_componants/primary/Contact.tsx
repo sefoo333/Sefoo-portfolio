@@ -5,7 +5,7 @@ import { SignupFormDemo } from '../contact/Contac';
 
 function Contact() {
     return (
-        <div className="parent">
+        <div className="parent" id="contact">
             <div className="container max-w-full  px-[50px] py-[90px]">
 
                 <div className="two grid grid-cols-2 max-xl:gap-[40px] max-md:grid-cols-1 max-md:gap-[20px] items-center justify-items-center">
