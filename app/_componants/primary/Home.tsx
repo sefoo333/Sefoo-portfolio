@@ -46,7 +46,7 @@ function Home2() {
             </div>
 
 
-            <div className="parent_home flex relative z-[99999]">
+            <div className="parent_home flex relative z-[99999] justify-center">
                 <div className="container py-[50px] px-[70px] flex items-center justify-center">
                     <div className="text flex-col flex gap-[20px] justify-center text-center">
                         <div className="primary flex gap-[5px] flex-col text-white">
