@@ -5,7 +5,7 @@ import { NumberTicker } from '../Count'
 
 function About() {
     return (
-        <div className="parent mt-[200px]" id='About'>
+        <div className="parent mt-[200px] flex justify-center" id='About'>
             <div className="container py-[50px] px-[70px] max-md:px-[20px] flex justify-center">
                 {/* <ShineBorder className="relative flex w-[1200px] flex-col items-center justify-center overflow-hidden rounded-xl   md:shadow-xl" */}
                 {/* color={["#A07CFE", "#FE8FB5", "#FFBE7B"]}> */}
