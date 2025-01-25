@@ -45,7 +45,7 @@ function Thanks() {
 
 
     return (
-        <div className="parent">
+        <div className="parent flex justify-center">
             <div className="container px-[50px] py-[90px]">
                 <div className="header  text-white font-bold mb-[20px] text-center text-[50px] max-md:text-[35px]">
                     <h1>Testimonials</h1>
