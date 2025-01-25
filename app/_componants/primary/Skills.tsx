@@ -21,7 +21,7 @@ function Skills() {
     ];
 
     return (
-        <div className="parent">
+        <div className="parent flex justify-center">
             <div className="container py-[50px] px-[90px] max-md:px-[30px]">
                 <div className="header  text-white font-bold mb-[20px] text-center text-[50px]">
                     <h1>Skills</h1>
