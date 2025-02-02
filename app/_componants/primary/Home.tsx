@@ -80,7 +80,7 @@ function Home2() {
                         </div>
                         <div className="buttons flex gap-[25px] items-center justify-center text-nowrap">
                             <RainbowButton>
-                                <a href="#Aboutme">
+                                <a href="#About">
                                     Hire me
                                 </a>
                             </RainbowButton>
