@@ -9,12 +9,12 @@ function Projects() {
 
 
     const data = [{
-        Title: "Salaty App",
-        Description: "It is an application to track Islamic prayers and read supplications and remembrances. You can listen to the radio station you like and automatically choose your country.",
-        Github: "https://github.com/sefoo333/salaty_project",
-        Preview: "https://salaty-bice.vercel.app/",
+        Title: "Cozomo",
+        Description: "It is a responsive design website dedicated to STP training and adding animations.",
+        Github: "https://github.com/sefoo333/Cozomo-project",
+        Preview: "https://cozomo.vercel.app/",
         technologies: ["next (1).svg", "react.svg", "ts.svg", "tailwind.svg"],
-        Image: "salaty.png",
+        Image: "cozomo.png",
     },
     {
         Title: "Social Media App",
