@@ -35,7 +35,7 @@ users to browse products, add to cart, and checkout securely and added the produ
         Title: "Ecommerce App",
         Description: `It is a responsive e-commerce website Developed platform using React.js and tailwind CSS and sass, allowing 
 users to browse products, add to cart, and checkout securely and added the products to favorite`,
-        Github: "https://github.com/sefoo333/ecommerce",
+        Github: "https://github.com/sefoo333/sefoo_store",
         Preview: "https://sefoo-store-3.vercel.app/",
         technologies: ["react.svg", "js.svg", "tailwind.svg"],
         Image: "sefoostore.png",
