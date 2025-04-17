@@ -38,7 +38,7 @@ users to browse products, add to cart, and checkout securely and added the produ
         Github: "https://github.com/sefoo333/My-store-V2/",
         Preview: "https://my-store-v2-daq1-ten.vercel.app/",
         technologies: ["react.svg", "js.svg", "tailwind.svg" , "next (1).svg","firebase-svgrepo-com.svg"],
-        Image: "sefoostore.png",
+        Image: "Screenshot 2025-04-05 114827.png",
     },
 
 
