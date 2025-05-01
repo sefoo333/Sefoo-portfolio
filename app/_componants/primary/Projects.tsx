@@ -25,12 +25,12 @@ users to browse products, add to cart, and checkout securely and added the produ
         technologies: ["next (1).svg", "react.svg", "ts.svg", "tailwind.svg", "firebase-svgrepo-com.svg"],
         Image: "sefoomedia.png",
     }, {
-        Title: "Wii App",
-        Description: `It is an application for creating forms and tests created by next/firebase and is characterized by a responsive design. You can add essay or optional questions and review the solutions to the form you created and other features.`,
-        Github: "https://github.com/sefoo333/wii",
-        Preview: "https://wii-green.vercel.app/",
-        technologies: ["next (1).svg", "react.svg", "ts.svg", "tailwind.svg", "firebase-svgrepo-com.svg"],
-        Image: "wii.png",
+        Title: "Salaty App",
+        Description: `A site to display prayer times, supplications, and play the radio and more`,
+        Github: "https://github.com/sefoo333/salaty_project/",
+        Preview: "https://salaty-bice.vercel.app/",
+        technologies: ["next (1).svg", "react.svg", "ts.svg", "tailwind.svg"],
+        Image: "salaty.png",
     }, {
         Title: "Ecommerce App",
         Description: `It is a responsive e-commerce website Developed platform using React.js and tailwind CSS and sass, allowing 
