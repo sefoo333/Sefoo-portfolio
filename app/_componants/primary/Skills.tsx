@@ -5,6 +5,10 @@ import { FaCss3, FaReact, FaWordpress } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io5";
 import { SiTypescript } from "react-icons/si";
 import { RiNextjsFill, RiTailwindCssFill } from "react-icons/ri";
+import { TbBrandReactNative } from "react-icons/tb";
+import { FaNodeJs } from "react-icons/fa";
+import { DiMongodb } from "react-icons/di";
+import { SiExpress } from "react-icons/si";
 
 function Skills() {
 
@@ -17,7 +21,12 @@ function Skills() {
         <FaReact />,
         <RiNextjsFill />,
         <RiTailwindCssFill />,
-        <FaWordpress />
+        <FaWordpress />,
+        <TbBrandReactNative />,
+        <FaNodeJs />,
+        <DiMongodb />,
+        <SiExpress />
+        
     ];
 
     return (
