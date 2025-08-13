@@ -74,7 +74,7 @@ function Home2() {
                                     size="35px"
                                 /> */}
                                 <TextAnimate animation="blurInUp" segmentClassName="text-[20px] max-md:text-[15px]" className='text-white/80 w-[450px] tracking-[1px] text-center  max-md:text-[15px]' by="character">
-                                    a Front-end Developer and Freelancer
+                                    a Software Developer
                                 </TextAnimate>
                             </div>
                         </div>
